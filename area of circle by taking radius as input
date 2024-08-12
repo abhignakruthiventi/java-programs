@@ -1,0 +1,14 @@
+import java.io.*;
+import java.util.*;
+class Main{
+    public static void main(String[] args){
+        int d;
+        double area;
+        Scanner sc=new Scanner(System.in);
+        int radius=sc.nextInt();
+        d=2*radius;
+     area=(radius*radius)*Math.PI;
+        System.out.println(d);
+        System.out.println(area);
+    }
+}
